@@ -103,7 +103,7 @@ python run_exp.py --data_root $DATA_ROOT             \
 ## Simple Baselines for Few-Shot Classification
 Please run the following script to reproduce a suite of baseline results.
 ```
-python run_baseline_exp.py --data_root $DATA_ROOT    \
+python run_baselines_exp.py --data_root $DATA_ROOT    \
                            --dataset {DATASET}
 ```
 * Possible `DATASET` options are `omniglot`, `mini-imagenet`, `tiered-imagenet`.
